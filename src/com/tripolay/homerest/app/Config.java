@@ -142,12 +142,12 @@ public class Config implements ServletContextListener
     }
     public void setupMongoDB()
     {
-    	//mongoClient = new MongoClient(new MongoClientURI(System.getenv("OPENSHIFT_MONGODB_DB_URL")));
-		//mongoDBUsers = mongoClient.getDatabase("tripusers");
+    	mongoClient = new MongoClient(new MongoClientURI(System.getenv("mongodb://admin:admin@mongodb/sampledb")));
+		mongoDBUsers = mongoClient.getDatabase("tripusers");
     	// OPENSHIFT_MONGODB_DB_URL="mongodb://DB_USERNAME:DB_PASSWORD@LOCAL_DB_IP:LOCAL_DB_PORT"
 		
-		mongoClient = new MongoClient("localhost" , 27017 );
-		mongoDBUsers = mongoClient.getDatabase("tripusers");
+		//mongoClient = new MongoClient("localhost" , 27017 );
+		//mongoDBUsers = mongoClient.getDatabase("tripusers");
 		
 		
 		// Mongo automatically delete record. Perfect for session
