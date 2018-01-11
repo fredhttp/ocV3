@@ -143,7 +143,7 @@ public class Config implements ServletContextListener
     public void setupMongoDB()
     {
     	mongoClient = new MongoClient(new MongoClientURI("mongodb://admin:admin@mongodb/sampledb"));
-		mongoDBUsers = mongoClient.getDatabase("tripusers");
+		mongoDBUsers = mongoClient.getDatabase("sampledb");
     	// OPENSHIFT_MONGODB_DB_URL="mongodb://DB_USERNAME:DB_PASSWORD@LOCAL_DB_IP:LOCAL_DB_PORT"
 		
 		//mongoClient = new MongoClient("localhost" , 27017 );
