@@ -1,0 +1,620 @@
+
+
+.spinner{
+	 margin-left: auto;
+    	margin-right: auto;
+    	display: none;
+}
+.spinner2{
+	margin-left: 400px;
+    margin-right: auto;
+    display:none;
+    
+}
+
+#dialog {
+    display:none;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 5px;
+	
+}
+#footer {
+	width: 100%;
+	height:20px;
+	padding: 5px 0px 0px 0px; 	/* top right bottom left */
+	text-align: center;
+	font-size: 11px;
+	background: #fff;
+}
+
+#loginimg {
+	 float:right;
+	 margin-right: 30px;
+}
+
+#logoutimg {
+	 float:right;
+	 margin-right: 30px;
+	 display:none;
+}
+
+#loginmsg {
+	width: 100%;
+	height: 30px;
+	text-align:right;
+	margin-bottom: 5px;	
+}
+
+
+.accordion-toggle {cursor: pointer;display:inline;}
+.accordion-content {display: none;}
+.accordion-content.default {display: block;}
+
+
+.ui-menu .ui-menu-item a,
+	.ui-menu .ui-menu-item a.ui-state-hover, 
+	.ui-menu .ui-menu-item a.ui-state-active 
+{
+    font-weight: normal;
+    margin: -1px;
+    text-align:left;
+    font-size:14px;
+}
+.ui-autocomplete-loading 
+{ 
+	background: white 
+	url("/images/ui-anim_basic_16x16.gif") right center no-repeat; 
+}
+    
+
+div.paypalbtn {
+	margin: 10px 0px 20px 40%;
+}
+
+input.search { 
+	width: 500px; 
+	height:23px; 
+	margin: 5px 0 10px 0px;
+	border: 2px solid #71bb3b;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+img.center {
+	border: none; display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+////////// calendar
+
+.cal-container{
+}
+.cal-img {
+    display: none;
+    vertical-align: middle;  
+}
+.cal-input {
+    display: none;
+    vertical-align: middle;
+    border:0;
+    outline: 0;
+    background: transparent;border-bottom: 2px solid black; 
+    margin-left:20px;   
+}
+.cal-label {
+	display: none;
+	vertical-align: middle;
+	font-size:18px;  
+}
+.cal-imgadd {
+    display: none;
+    vertical-align: middle;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+
+
+#leftBar {
+	width: 60%;
+	float: left;
+	padding: 0 0 20px 10px;  /*  top right bottom left */
+	text-align: left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#centerBar {
+	width: 20%;
+	float: left;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#rightBar {
+	width: 20%;
+	float: left;
+	padding: 0 0 20px 10px;
+	text-align: right;
+	/*background-color: yellow;*/
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+.clear {clear: both;}
+
+
+
+hr {
+    margin-top:2%;
+} 
+
+
+table {border:none;font-size: 12px;}
+td {border:none; padding: 5px;}
+table.data {
+	margin: 5px 0px 20px 10%;  	/* top right bottom left */
+	width:  50%; 
+	border-collapse: collapse;
+	font-size: 20px;
+}
+th.data {
+	padding: 8px 4px 8px 4px;
+	border: 1px solid #dcdcdc; 
+	background: url(img/green.jpg)repeat left center;
+	text-shadow: 1px 0px #003362;
+	color: #fff
+}
+td.data {
+	padding: 4px; 
+	border: 5px solid #dcdcdc;
+	color: #5b5b5b;
+	vertical-align: top;
+}
+td.price {
+	text-align: right;
+	font-size: 20px;
+}
+td.total {
+	text-align: center;
+	width: 20%;
+}
+td.totalprice {
+	text-align: right;
+	padding: 4px; 
+	color: #5b5b5b;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.price{
+	font-size: 20px; 
+	color: Blue;
+}
+.curr {
+	font-size: 20px; 
+	color: Blue;
+}
+.depapt{}
+.arvapt{}
+.recnum{
+	display:none;
+}
+.fltnum{}
+.itinlbl{}
+.airline{
+	font-size: 18px; 
+	font-style: italic;
+	color:Brown;
+	font-style: bold;
+}
+.deptime{
+	font-size: 18px; 
+	font-style: italic;
+	color:Brown;
+	font-style: bold;
+}
+.htlchkin{}
+.htlchkout{}
+.htlroom{}
+.htlnight{}
+.htlrate{}
+
+.cartype{}
+.carmodel{}
+.carpkapt{}
+.carpkday{}
+.carpktime{}
+
+#bookbtn {
+	font-family: 'Droid Sans', sans-serif;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	margin: 40px;
+	border: 1px solid rgba(0,0,0,0.4) ;
+	box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5),
+				0 0 1px 1px rgba(255,255,255,0.8),
+				0 0 0 6px rgba(0,0,0,0.06),
+				0 0 0 3px rgba(0,0,0,0.1);
+	cursor: pointer;
+	background:#95a5a6;
+	font-size:18px;
+	width: 10%;
+	
+	display:none;
+	margin: 10px 0px 20px 40%;
+	
+}
+#msg{
+	display:none;
+	margin: 10px 0px 20px 40%;
+}
+
+
+
+
+
+
+
+
+.jPaginate{
+    height:34px;
+    position:relative;
+    color:#a5a5a5;
+    font-size:20px;   
+	width:100%;
+}
+.jPaginate a{
+    line-height:15px;
+    height:18px;
+    cursor:pointer;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+.jPag-control-back{
+	position:absolute;
+	left:0px;
+}
+.jPag-control-front{
+	position:absolute;
+	top:0px;
+}
+.jPaginate span{
+    cursor:pointer;
+}
+ul.jPag-pages{
+    float:left;
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.jPag-pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+ul.jPag-pages li a{
+    float:left;
+    padding:2px 5px;
+}
+span.jPag-current{
+    cursor:default;
+    font-weight:normal;
+    line-height:15px;
+    height:18px;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-next,
+span.jPag-sprevious,
+span.jPag-snext,
+ul.jPag-pages li span.jPag-previous-img,
+ul.jPag-pages li span.jPag-next-img,
+span.jPag-sprevious-img,
+span.jPag-snext-img{
+    height:22px;
+    margin:2px;
+    float:left;
+    line-height:18px;
+}
+
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-previous-img{
+    margin:2px 0px 2px 2px;
+    font-size:12px;
+    font-weight:bold;
+        width:10px;
+
+}
+ul.jPag-pages li span.jPag-next,
+ul.jPag-pages li span.jPag-next-img{
+    margin:2px 2px 2px 0px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+}
+span.jPag-sprevious,
+span.jPag-sprevious-img{
+    margin:2px 0px 2px 2px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+span.jPag-snext,
+span.jPag-snext-img{
+    margin:2px 2px 2px 0px;
+    font-size:18px;
+    width:15px;
+     text-align:right;
+}
+ul.jPag-pages li span.jPag-previous-img{
+    background:transparent url(../images/previous.png) no-repeat center right;
+            }
+ul.jPag-pages li span.jPag-next-img{
+    background:transparent url(../images/next.png) no-repeat center left;
+            }
+span.jPag-sprevious-img{
+    background:transparent url(../images/sprevious.png) no-repeat center right;
+            }
+span.jPag-snext-img{
+    background:transparent url(../images/snext.png) no-repeat center left;
+            }
+
+
+
+#payment-paypal {
+	margin: 10px 0px 20px 20%;
+}
+#payment-cc {
+	margin: 10px 0px 20px 40%;
+}
+
+
+.sub-body {
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all 0.2s;
+  width: 540px;
+}
+
+.header {
+  background: #2B0F5D;
+  color: #A27BE9;
+  padding: 24px 0 21px;
+  text-align: center;
+}
+
+.priceX {
+  color: #FFFFFF;
+  display: flex;
+  margin: 0 0 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.price__dollar,
+.price__time {
+  margin: 0 8px;
+}
+
+.desc {
+  font-family: 'Bitter', serif;
+  margin: 0;
+}
+
+.pay-select {
+  background: #F3F3F3;
+  display: flex;
+  font-size: 13px;
+  padding: 24px 0;
+  text-align: center;
+  justify-content: space-around;
+}
+.pay-select .pay-select--card,
+.pay-select .pay-select--paypal {
+  position: relative;
+}
+.pay-select .is-active:after {
+  border-bottom: 10px solid #FFFFFF;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -24px;
+  content: ' ';
+  height: 0;
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  width: 0;
+}
+.pay-select p {
+  margin: 0;
+}
+
+.pay-select__item {
+  width: 48%;
+}
+.pay-select__item:hover {
+  cursor: pointer;
+}
+
+.separator {
+  background: #BABABA;
+  height: 60px;
+  width: 1px;
+}
+
+.select-body {
+  padding: 32px;
+  text-align: center;
+}
+
+.select-body--paypal {
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-family: 'Bitter', serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.select-body__content {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(30px);
+  transition: visibility 0.3s, opacity 0.3s ease, height 0.3s ease 0.3s, transform 0.2s ease 0.2s;
+  visibility: hidden;
+}
+.select-body__content.is-active {
+  height: 380px;
+  opacity: 1;
+  transform: none;
+  transition: visibility 0.3s, opacity 0.3s ease, height 0.3s ease 0.3s, transform 0.2s ease;
+  visibility: visible;
+}
+.select-body__content.is-active.select-body--paypal {
+  height: 80px;
+}
+
+.card-input {
+  border: 1px solid #ECECEC;
+  font-family: 'Montserrat', sans-serif;
+  height: 32px;
+  margin-bottom: 18px;
+  padding: 4px 8px;
+}
+
+.date__container {
+  display: flex;
+}
+
+#expiration-month {
+  border-right: none;
+}
+
+.braintree-hosted-fields-invalid {
+  border-color: #EB5757;
+}
+
+#submit {
+  background: #000000;
+  border: none;
+  border-radius: 30px;
+  color: #FFFFFF;
+  margin: px auto 0;
+  padding: 18px;
+  width: 315px;
+}
+
+
+
+
+#disclaimer{
+	padding: 1% 20%;
+}
+.titleheading{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.footer-basic-centered{
+	width: 100%;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	font-size:12px;
+	margin-top:2%;
+	color:  #8d9093
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	padding: 5px 0 5px;
+	margin: 0;
+	color:  #8d9093
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+	font-size:14px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
