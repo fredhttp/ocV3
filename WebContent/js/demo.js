@@ -13,7 +13,8 @@ var g_lon = "";
 
 //var base_url = "https://home-tripolay.rhcloud.com/homerest";
 //var base_url = "https://demo-tripolay.rhcloud.com/homerest";
-var base_url = "https://localhost:8443/rest";
+//var base_url = "https://localhost:8443/rest";
+var base_url = "http://demo-tripolay.a3c1.starter-us-west-1.openshiftapps.com/rest"; 
 
 var picker1 = rome(dp1,{
     weekStart: 1,
